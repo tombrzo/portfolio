@@ -1,0 +1,34 @@
+.about__container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.about__title-wrapper{
+  width: 100%;
+  height: 620px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about__title{
+  text-align: center;
+  font-size: 90px;
+  font-family:'Lato';
+  font-weight: 900;
+  line-height: 1.4;
+  color: whitesmoke;
+  margin: 0;
+  padding: 0;
+}
+
+.about__content{
+  width: 100%;
+  height:600px;
+  background-color: #ccc;
+  margin: 0;
+  padding: 0;
+  
+}

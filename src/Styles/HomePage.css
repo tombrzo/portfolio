@@ -1,0 +1,99 @@
+.home__container {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background-color: #222;
+}
+
+.home__nav {
+  width: 50%;
+  text-align: start;
+  margin: 20px 20px 0 10px;
+  z-index: 20;
+  position: relative;
+}
+
+.home__img {
+  width: 90%;
+  height: auto;
+  z-index: 0;
+}
+
+@media screen and (min-width:320px) {
+  .home__container {
+    width: 320px;
+    overflow: hidden;
+    margin: 0 auto;
+  }
+
+  .home__nav {
+    max-width: 50%;
+    margin: 0px 20px 0 15px;
+  }
+
+  .home__img {
+    width: 100%;
+    margin-top: -80px;
+    margin-right: -80px;
+  }
+}
+
+@media screen and (min-width:480px) {
+  .home__container {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+  }
+
+  .home__nav {
+    max-width: 22%;
+    margin: 20px 0px 0 25px;
+    z-index: 20;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .home__img {
+    width: 550px;
+    margin-top: 25px;
+    margin-right: -50px;
+    z-index: 0;
+  }
+}
+
+@media screen and (min-width:769px) {
+  .home__container {
+    padding-left: 50px;
+  }
+
+  .home__nav {
+    max-width: 22%;
+    margin: 20px 20px 0 10px;
+    position: relative;
+  }
+
+  .home__img {
+    min-width: 550px;
+    height: auto;
+    margin-top: 30px;
+    margin-right: 0;
+  }
+}
+
+@media screen and (min-width:1025px) {
+  .home__container {
+    object-fit: contain;
+  }
+
+  .home__nav {
+    margin: 20px 20px 0 1px;
+  }
+
+  .home__img {
+    min-width: 650px;
+    margin-top: 50px;
+  }
+}

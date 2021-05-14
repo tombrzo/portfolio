@@ -1,0 +1,21 @@
+.phone {
+    width: 190px;
+    height: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.number {
+    display: block;
+    color: #ea0f1e;
+    padding-left: 10px;
+    transition: 0.2s;
+}
+
+.number:hover {
+    color: yellow;
+    transform: scale(1.1);
+}
