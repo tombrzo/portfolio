@@ -6,7 +6,7 @@ import pic33 from '../Images/pic33.png';
 const HomePage = () => {
   return (
     <>
-      <div className='home__container'>
+      <div className='home__container animate'>
         <div className='home__nav'>
           <Navigation />
         </div>
@@ -14,6 +14,6 @@ const HomePage = () => {
       </div>
     </>
   );
-}
+};
 
 export default HomePage;

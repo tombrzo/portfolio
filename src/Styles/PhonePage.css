@@ -3,7 +3,7 @@
     height: 20px;
     display: flex;
     justify-content: flex-start;
-    align-items: center;
+    align-items: flex-start;
     margin-bottom: 20px;
     cursor: pointer;
 }
@@ -13,9 +13,18 @@
     color: #ea0f1e;
     padding-left: 10px;
     transition: 0.2s;
+    transform: rotate(270deg);
+    margin-left: -40px;
 }
 
 .number:hover {
     color: yellow;
     transform: scale(1.1);
+}
+
+@media screen and (min-width:480px) {
+    .number {
+        transform: rotate(0deg);
+        margin-left: 10px;
+    }
 }
