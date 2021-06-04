@@ -1,0 +1,116 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Lato';
+}
+
+body {
+  background-color: #222;
+}
+
+.app__container{
+  background-color: #222;
+}
+
+.back-to-home {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  position: fixed;
+  top: 20px;
+  right: 10px;
+  display: inline-block;
+}
+
+.back-to-home::after {
+  display: inline-block;
+  content: 'Tom.';
+  transition: 0.7s ease-in-out;
+}
+
+.back-to-home:hover::after {
+  display: inline-block;
+  content: 'Tom.home';
+  transform: translateX(40px);
+  transition: 0.7s ease-in-out;
+}
+
+.back-home {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  display: inline-block;
+  z-index: 100;
+}
+
+.back-home::after {
+  display: inline-block;
+  content: 'Tom.';
+  transition: 0.7s ease-in-out;
+  color: rgb(231, 2, 2);
+}
+
+.back-home:hover::after {
+  display: inline-block;
+  content: 'Tom.home';
+  transform: translateX(40px);
+  transition: 0.7s ease-in-out;
+}
+
+@media screen and (min-width:320px) {
+  .back-to-home {
+    top: 30px;
+    right: 45px;
+  }
+
+  .back-home {
+    top: 20px;
+    right: 20px;
+  }
+}
+
+@media screen and (min-width:480px) {
+  .back-to-home {
+    top: 35px;
+    right: 50px;
+    font-size: 16px;
+  }
+
+  .back-home {
+    top: 50px;
+    right: 40px;
+  }
+
+  .back-home::after {
+    color:inherit;
+  }
+}
+
+@media screen and (min-width:769px) {
+  .back-to-home {
+    top: 40px;
+    right: 60px;
+    font-size: 18px;
+  }
+
+  .back-home {
+    top: 50px;
+    right: 60px;
+  }
+}
+
+@media screen and (min-width:1025px) {
+  .back-to-home {
+    top: 50px;
+    right: 80px;
+    font-size: 20px;
+  }
+}
+
+

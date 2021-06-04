@@ -1,0 +1,158 @@
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.contact__title_wrapper {
+  width: 100%;
+  height: 110vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact__title {
+  width: 370px;
+  font-size: 35px;
+  font-weight: 900;
+  color: #ECF3FF;
+}
+
+.contact__title:hover {
+  color: #fff;
+  cursor: pointer;
+}
+
+.contact__down {
+  display: block;
+  text-decoration: none;
+  outline: none;
+  transform: rotate(270deg);
+}
+
+.contact__content {
+  width: 44%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 150px;
+  color: #ECF3FF;
+}
+
+.contact__content_subtitle {
+  width: max-content;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.contact__content_subtitle:hover {
+  color: #fff;
+  cursor: pointer;
+}
+
+.contact__content_text {
+  max-width: 620px;
+  margin-bottom: 20px;
+  font-size: 18px;
+  text-align: start;
+  line-height: 1.6;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.link {
+  margin-bottom: 20px;
+  display: flex;
+  text-decoration: none;
+}
+
+.link__icon {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 5px;
+  transition: 0.3s ease-in-out;
+}
+
+.link__icon:hover {
+  transform: rotate(15deg);
+}
+
+.end {
+  width: 45%;
+  border-bottom: 1px solid #ECF3FF;
+  margin: 100px 0 100px;
+}
+
+@media screen and (min-width:320px) {
+  .contact__title {
+    width: 470px;
+    text-align: start;
+    font-size: 55px;
+    line-height: 1.4;
+  }
+
+  .contact__content_subtitle {
+    font-size: 25px;
+  }
+}
+
+@media screen and (min-width:480px) {
+  .contact__title {
+    width: 480px;
+    font-size: 55px;
+  }
+
+  .contact__down {
+    transform: rotate(0deg);
+  }
+
+  .contact__content {
+    margin-top: 100px;
+    padding-left: 10px;
+  }
+
+  .contact__content_subtitle {
+    font-size: 30px;
+  }
+}
+
+@media screen and (min-width:769px) {
+  .contact__title {
+    width: 600px;
+    font-size: 70px;
+  }
+
+  .contact__content {
+    margin-top: 130px;
+  }
+
+  .contact__content_subtitle {
+    font-size: 35px;
+  }
+}
+
+@media screen and (min-width:1025px) {
+  .contact__title {
+    width: 780px;
+    font-size: 90px;
+  }
+
+  .contact__content {
+    margin-top: 150px;
+    padding-left: 20px;
+  }
+
+  .contact__content_subtitle {
+    font-size: 40px;
+  }
+}
