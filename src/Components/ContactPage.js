@@ -4,8 +4,8 @@ import '../Styles/ContactPage.css';
 import PhonePage from './PhonePage.js';
 
 const ContactPage = () => {
-  return ( 
-    
+  return (
+
     <div className='contact-container'>
       <div className='contact__title_wrapper'>
         <Link className='back-to-home' to="/"> </Link>
@@ -13,7 +13,7 @@ const ContactPage = () => {
       </div>
       <div className='contact__content'>
         <span id='down'><h4 className='contact__content_subtitle'> Contact </h4></span>
-        <p className='contact__content_text'>I'm seeking for opportunities to cooperate with 
+        <p className='contact__content_text'>I'm seeking for opportunities to cooperate with
           modern companies but not only this...
           I want to bring my grate experience in work with people and  for people
           to the table where we'll work together to solve real bussines problems.
@@ -37,7 +37,7 @@ const ContactPage = () => {
             <img className='link__icon' src='./img/facebook.png' alt=''/>
           </a>
           <a className='link' href="https://github.com/tombrzo/" target='blank'>
-            <img className='link__icon' src='../img/github.png' alt=''/>
+            <img className='link__icon' src='./img/github.png' alt=''/>
           </a>
         </div>
       </div> 
