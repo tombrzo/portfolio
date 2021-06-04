@@ -41,14 +41,14 @@ const AboutPage = () => {
             <a href='img/cv.pdf' target='blank' className='resume'>My resume <span>(pdf 272 KB in polish language)</span></a>
             <h4 className='about__content_subtitle'>Education</h4>
             <div className='edu__pictures'>
-              <a href='http://etnologia.amu.edu.pl/' target='blank'><img className='edu__logo' src='../img/uam.jpg' alt=''/></a>
+              <a href='http://etnologia.amu.edu.pl/' target='blank'><img className='edu__logo' src='./img/uam.jpg' alt=''/></a>
               <div className='edu__logo_description'>
                 <h4>Adam Mickiewicz University in Poznań</h4>
                 <p >Institute of Anthropology and Ethnology</p>
               </div>
             </div>
             <div className='edu__pictures'>
-              <a href='https://energetyk.edu.pl/' target='blank'><img className='edu__logo edu__tec' src='../img/te.jpg' alt=''/></a>
+              <a href='https://energetyk.edu.pl/' target='blank'><img className='edu__logo edu__tec' src='./img/te.jpg' alt=''/></a>
               <div className='edu__logo_description'>
                 <h4>Technical School of Energy in Poznań</h4>
               </div>

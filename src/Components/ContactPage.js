@@ -40,7 +40,7 @@ const ContactPage = () => {
             <img className='link__icon' src='./img/github.png' alt=''/>
           </a>
         </div>
-      </div> 
+      </div>
       <div className='end'></div>
     </div>
   );
