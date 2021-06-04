@@ -12,7 +12,7 @@ function App() {
   return (
     <>
       <div>
-        <Router>
+        <Router basename={process.env.PUBLIC_URL}>
           <Switch>
             <Route path='/' exact component={HomePage}/>
             <Route path='/about' exact component={AboutPage}/>
