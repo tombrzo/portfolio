@@ -55,12 +55,12 @@ const AboutPage = () => {
             </div>
             <h4 className='about__content_subtitle'>Skills</h4>
             <div className='skills-logos'>
-              <img className='skills__logo' src='../img/html.png' alt=''/>
-              <img className='skills__logo' src='../img/css3.png' alt=''/>
-              <img className='skills__logo' src='../img/js.png' alt=''/>
-              <img className='skills__logo' src='../img/react_logo.png' alt=''/>
-              <img className='skills__logo' src='../img/git.jpg' alt=''/>
-              <img className='skills__logo' src='../img/github.png' alt=''/>
+              <img className='skills__logo' src='./img/html.png' alt=''/>
+              <img className='skills__logo' src='./img/css3.png' alt=''/>
+              <img className='skills__logo' src='./img/js.png' alt=''/>
+              <img className='skills__logo' src='./img/react_logo.png' alt=''/>
+              <img className='skills__logo' src='./img/git.jpg' alt=''/>
+              <img className='skills__logo' src='./img/github.png' alt=''/>
             </div>
           </div>
           <div className='end_line'></div>
