@@ -18,7 +18,7 @@ function App() {
             <Route path='/about' exact component={AboutPage}/>
             <Route path='/work'  exact component={WorkPage}/>
             <Route path='/contact'  exact component={ContactPage}/>
-            <Route exact component={ErrorPage}/>
+            <Route basename={process.env.PUBLIC_URL} exact component={ErrorPage}/>
           </Switch>
         </Router>
       </div>
