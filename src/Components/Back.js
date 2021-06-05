@@ -13,9 +13,9 @@ const Back = () => {
   }, []);
 
   const handleScroll = () => {
-    if (window.pageYOffset > 580) {
+    if (window.pageYOffset > 520) {
       setColor('black');
-    } else if (window.pageYOffset <= 580) {
+    } else if (window.pageYOffset <= 520) {
       setColor('white');
     }
   };

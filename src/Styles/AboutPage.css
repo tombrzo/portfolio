@@ -1,273 +1,273 @@
 .about__container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background-color: #222;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: #222;
 }
 
 .about__title-wrapper {
-  width: 100%;
-  height:100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .about__title {
-  width: 370px;
-  font-size: 35px;
-  font-weight: 900;
-  color:#ECF3FF;
-  margin: 0;
-  transition: 0.2s ease-in-out;
+	width: 370px;
+	font-size: 35px;
+	font-weight: 900;
+	color: #ECF3FF;
+	margin: 0;
+	transition: 0.2s ease-in-out;
 }
 
 .about__title:hover {
-  color: #fff;
+	color: #fff;
 }
 
 .about__down {
-  display: block;
-  text-decoration: none;
-  outline: none;
-  transform: rotate(270deg);
+	display: block;
+	text-decoration: none;
+	outline: none;
+	transform: rotate(270deg);
 }
 
 .about__content_wrapper {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  color: #000;
-  background-color: #fff;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: #000;
+	background-color: #fff;
 }
 
 .about__content_text {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
-  margin-bottom: 100px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+	margin-bottom: 100px;
 }
 
 .about__content_subtitle {
-  font-size: 20px;
-  font-weight: 700;
-  margin:50px 0 30px;
-  border-bottom: 1px solid transparent;
+	font-size: 20px;
+	font-weight: 700;
+	margin: 50px 0 30px;
+	border-bottom: 1px solid transparent;
 }
 
 .about__content_subtitle:hover {
-  cursor: pointer;
-  border-bottom: 1px solid #000;
+	cursor: default;
+	border-bottom: 1px solid #000;
 }
 
 .about__content_sentence-first {
-  font-size: 22px;
-  font-weight: 400;
-  line-height: 1.6;
-  margin-bottom: 40px;
+	font-size: 22px;
+	font-weight: 400;
+	line-height: 1.6;
+	margin-bottom: 40px;
 }
 
 .about__content_sentence {
-  font-size: 18px;
-  line-height: 1.6;
-  font-weight: 400;
-  margin-bottom: 20px;
+	font-size: 18px;
+	line-height: 1.6;
+	font-weight: 400;
+	margin-bottom: 20px;
 }
 
 .edu__pictures {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 30px;
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 30px;
 }
 
 .edu__logo {
-  width: 70px;
-  height: 70px;
-  border-radius: 10px;
-  transition: 0.3s;
+	width: 70px;
+	height: 70px;
+	border-radius: 10px;
+	transition: 0.3s;
 }
 
 .edu__logo:hover {
-  transform: scale(1.2);
-  cursor: pointer;
+	transform: scale(1.2);
+	cursor: pointer;
 }
 
 .edu__tec {
-  border-radius: 50%;
+	border-radius: 50%;
 }
 
 .edu__logo_description {
-  line-height: 1.6;
-  color: #555;
+	line-height: 1.6;
+	color: #555;
 }
 
 .skills__logo {
-  width: 50px;
-  height: 50px;
-  margin-bottom: 30px;
-  margin-right: 10px;
-  object-fit: cover;
-  border-radius: 15px;
-  transition: 0.3s;
+	width: 50px;
+	height: 50px;
+	margin-bottom: 30px;
+	margin-right: 10px;
+	object-fit: cover;
+	border-radius: 15px;
+	transition: 0.3s;
 }
 
 .skills__logo:hover {
-  transform: scale(1.2);
-  cursor: pointer;
+	transform: scale(1.2);
+	cursor: pointer;
 }
 
 .resume {
-  margin: 20px 0 30px;
-  font-size: 18px;
-  font-weight: 900;
-  color: #ea0f1e;
-  text-decoration: none;
-  transition: 0.3s ease-in-out;
+	margin: 20px 0 30px;
+	font-size: 18px;
+	font-weight: 900;
+	color: #ea0f1e;
+	text-decoration: none;
+	transition: 0.3s ease-in-out;
 }
 
 .resume:hover {
-  cursor: pointer;
-  transform: translateX(30px);
+	cursor: pointer;
+	transform: translateX(30px);
 }
 
 .resume>span {
-  font-size: 14px;
-  font-weight: 400;
+	font-size: 14px;
+	font-weight: 400;
 }
 
 .end_line {
-  width: 45%;
-  border-bottom:  0.5px solid #888;
-  margin-bottom:  80px;
+	width: 45%;
+	border-bottom: 0.5px solid #888;
+	margin-bottom: 80px;
 }
 
 @media screen and (min-width:320px) {
-  .about__title {
-    width: 410px;
-    text-align: start;
-    font-size: 60px;
-    line-height: 1.4;
-  }
+	.about__title {
+		width: 410px;
+		text-align: start;
+		font-size: 60px;
+		line-height: 1.4;
+	}
 
-  .about__down {
-    transform: rotate(270deg);
-  }
+	.about__down {
+		transform: rotate(270deg);
+	}
 
-  .about__content_wrapper {
-    padding: 0 20px;
-  }
+	.about__content_wrapper {
+		padding: 0 20px;
+	}
 
-  .edu__pictures {
-    flex-direction: row;
-  }
+	.edu__pictures {
+		flex-direction: row;
+	}
 
-  .edu__logo_description {
-    margin-left: 10px;
-  }
+	.edu__logo_description {
+		margin-left: 10px;
+	}
 
-  .skills__logo {
-    margin-right: 10px;
-  }
+	.skills__logo {
+		margin-right: 10px;
+	}
 }
 
 @media screen and (min-width:480px) {
-  .about__title {
-    width: 460px;
-    font-size: 60px;
-  }
+	.about__title {
+		width: 460px;
+		font-size: 60px;
+	}
 
-  .about__down {
-    transform: rotate(0deg);
-  }
+	.about__down {
+		transform: rotate(0deg);
+	}
 
-  .about__content_wrapper {
-    padding: 0 20px;
-  }
+	.about__content_wrapper {
+		padding: 0 20px;
+	}
 
-  .about__content_text {
-    max-width: 400px;
-  }
+	.about__content_text {
+		max-width: 400px;
+	}
 
-  .about__content_subtitle {
-    font-size: 30px;
-  }
+	.about__content_subtitle {
+		font-size: 30px;
+	}
 
-  .edu__logo_description {
-    margin-left: 15px;
-  }
+	.edu__logo_description {
+		margin-left: 15px;
+	}
 
-  .skills__logo {
-    margin-right: 15px;
-  }
+	.skills__logo {
+		margin-right: 15px;
+	}
 }
 
 @media screen and (min-width:769px) {
-  .about__title {
-    width: 480px;
-    font-size: 80px;
-  }
+	.about__title {
+		width: 480px;
+		font-size: 80px;
+	}
 
-  .about__down {
-    transform: rotate(0deg);
-  }
+	.about__down {
+		transform: rotate(0deg);
+	}
 
-  .about__content_wrapper {
-    padding: 0 20px;
-  }
+	.about__content_wrapper {
+		padding: 0 20px;
+	}
 
-  .about__content_text {
-    width: 59%;
-    max-width: 660px;
-  }
+	.about__content_text {
+		width: 59%;
+		max-width: 660px;
+	}
 
-  .about__content_subtitle {
-    font-size: 40px;
-    font-weight: 900;
-  }
+	.about__content_subtitle {
+		font-size: 40px;
+		font-weight: 900;
+	}
 
-  .edu__pictures {
-    margin-bottom: 20px;
-  }
+	.edu__pictures {
+		margin-bottom: 20px;
+	}
 
-  .edu__logo_description {
-    margin-left: 20px;
-  }
+	.edu__logo_description {
+		margin-left: 20px;
+	}
 
-  .skills__logo {
-    margin-right: 25px;
-  }
+	.skills__logo {
+		margin-right: 25px;
+	}
 
-  .skills__logo:last-child {
-    margin-right: 0;
-  }
+	.skills__logo:last-child {
+		margin-right: 0;
+	}
 }
 
 @media screen and (min-width:1025px) {
-  .about__title {
-    width: 950px;
-    font-size: 90px;
-  }
+	.about__title {
+		width: 950px;
+		font-size: 90px;
+	}
 
-  .edu__pictures {
-    margin-bottom: 30px;
-  }
+	.edu__pictures {
+		margin-bottom: 30px;
+	}
 
-  .skills-logos {
-    margin-left: 0px;
-  }
+	.skills-logos {
+		margin-left: 0px;
+	}
 
-  .skills__logo {
-    margin-right: 45px;
-  }
+	.skills__logo {
+		margin-right: 45px;
+	}
 
-  .skills__logo:hover {
-    transform: scale(1.2);
-    cursor: pointer;
+	.skills__logo:hover {
+		transform: scale(1.2);
+		cursor: pointer;
 
-  }
+	}
 }

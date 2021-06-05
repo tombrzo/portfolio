@@ -1,36 +1,36 @@
-.errorPage__container{
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: white;
+.errorPage__container {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: white;
 }
 
 .errorPage__container>.back-to-home {
-    color: gray;
+	color: gray;
 }
 
 .errorPage__content {
-    width: 50%;
-    min-height:200px;
-    text-align: center;
+	width: 50%;
+	min-height: 200px;
+	text-align: center;
 }
 
 .errorPage__content_title {
-    font-size: 26px;
-    font-weight: 900;
-    margin-bottom: 50px;
-    color: #4945b6;
+	font-size: 26px;
+	font-weight: 900;
+	margin-bottom: 50px;
+	color: #4945b6;
 }
 
 .errorPage__content_subtitle {
-    font-size: 18px;
-    font-weight: 500;
-    color: gray;
-    margin-bottom: 20px;
+	font-size: 18px;
+	font-weight: 500;
+	color: gray;
+	margin-bottom: 20px;
 }
 
 .errorPage__content_link {
-    color: #4945b6;
+	color: #4945b6;
 }
