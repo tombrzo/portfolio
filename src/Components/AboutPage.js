@@ -39,7 +39,7 @@ const AboutPage = () => {
             <a href='./img/cv.pdf' className='resume' target='blank'>My resume <span>(pdf 272 KB in polish language)</span></a>
             <h4 className='about__content_subtitle'>Education</h4>
             <div className='edu__pictures'>
-              <a href='http://etnologia.amu.edu.pl/' target='blank'><img className='edu__logo' src='./img/uam.jpg' alt='' /></a>
+              <a href='http://etnologia.amu.edu.pl/' target='_blank' rel="noreferrer"><img className='edu__logo' src='./img/uam.jpg' alt='' /></a>
               <div className='edu__logo_description'>
                 <h4>Adam Mickiewicz University in Poznań</h4>
                 <p >Institute of Anthropology and Ethnology</p>

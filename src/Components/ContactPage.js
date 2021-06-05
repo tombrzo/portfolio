@@ -21,22 +21,22 @@ const ContactPage = () => {
         <p className='contact__content_text'>If that all sounds right, please contact me : </p>
         <div className='links'>
           <PhonePage />
-          <a className='link' href="mailto: tombrzoza50@gmail.com ">
+          <a className='link' href="mailto: tombrzoza50@gmail.com " target='_blank' rel='noopener noreferrer'>
             <img className='link__icon' src='./img/gmail-icon.png' alt='' />
           </a>
-          <a className='link' href="mailto: tombrzoza@yahoo.co.uk ">
+          <a className='link' href="mailto: tombrzoza@yahoo.co.uk " target='_blank' rel='noopener noreferrer'>
             <img className='link__icon' src='./img/yahoo_mail.png' alt='' />
           </a>
-          <a className='link' href="https://www.instagram.com/tombrzoza/" target='blank'>
+          <a className='link' href="https://www.instagram.com/tombrzoza/" target='_blank' rel='noopener noreferrer'>
             <img className='link__icon' src='./img/instagram.jpg' alt='' />
           </a>
-          <a className='link' href="https://www.linkedin.com/in/tomasz-brzoza-245399175/" target='blank'>
+          <a className='link' href="https://www.linkedin.com/in/tomasz-brzoza-245399175/" target='_blank' rel='noopener noreferrer'>
             <img className='link__icon' src='./img/linkedin_icon.png' alt='' />
           </a>
-          <a className='link' href="https://www.facebook.com/tomasz.brzoza.50/" target='blank'>
+          <a className='link' href="https://www.facebook.com/tomasz.brzoza.50/" target='_blank' rel='noopener noreferrer'>
             <img className='link__icon' src='./img/facebook.png' alt='' />
           </a>
-          <a className='link' href="https://github.com/tombrzo/" target='blank'>
+          <a className='link' href="https://github.com/tombrzo/" target='_blank' rel='noopener noreferrer'>
             <img className='link__icon' src='./img/github.png' alt='' />
           </a>
         </div>
