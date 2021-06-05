@@ -1,23 +1,23 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import '../Styles/PhonePage.css';
 
 const Phone = () => {
 
-  const[phoneNumber, setPhoneNumber] = useState('');
+  const [phoneNumber, setPhoneNumber] = useState('');
 
-  const handleClick = () =>{ 
-    if(phoneNumber ===''){
+  const handleClick = () => {
+    if (phoneNumber === '') {
       setPhoneNumber('+48 53 53 33 292');
-    }else{
+    } else {
       setPhoneNumber('');
     }
   };
-  return ( 
-    <div className='phone' href=" " >
-      <img className='link__icon ' src='./img/phone.png' alt='' onClick={handleClick} />
+  return (
+    <div className='phone' >
+      <img className='link__icon' src='./img/phone.png' alt='' onClick={handleClick} />
       <p className='number'>{phoneNumber}</p>
     </div>
   );
 };
- 
+
 export default Phone;
