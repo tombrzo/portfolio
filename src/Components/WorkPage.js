@@ -20,43 +20,43 @@ const WorkPage = () => {
             <div className='example'>
               <img className='example__picture' src='img/portfolio.png' alt='' />
               <div className='overlay'>
-                <a href='https://tombrzo.github.io/portfolio/' target='blank' className='overlay__text'>Portfolio</a>
-                <a href='https://github.com/tombrzo/potfolio.git' target='blank' className='overlay__sentence' >See code on GitHub</a>
+                <a href='https://tombrzo.github.io/portfolio/' target='_blank' rel="noreferrer" className='overlay__text'>Portfolio</a>
+                <a href='https://github.com/tombrzo/potfolio.git' target='_blank' rel="noreferrer" className='overlay__sentence' >See code on GitHub</a>
               </div>
             </div>
             <div className='example'>
               <img className='example__picture' src='img/clone.png' alt='' />
               <div className='overlay'>
-                <a href='https://github.com/tombrzo/facebook_clone' target='blank' className='overlay__text'>Facebook-Clone</a>
-                <a href='https://github.com/tombrzo/facebook_clone' target='blank' className='overlay__sentence'>See code on GitHub</a>
+                <a href='https://github.com/tombrzo/facebook_clone' target='_blank' rel="noreferrer" className='overlay__text'>Facebook-Clone</a>
+                <a href='https://github.com/tombrzo/facebook_clone' target='_blank' rel="noreferrer" className='overlay__sentence'>See code on GitHub</a>
               </div>
             </div>
             <div className='example'>
               <img className='example__picture' src='img/travel.png' alt='' />
               <div className='overlay'>
-                <a href='https://github.com/tombrzo/places_to_go.git' target='blank' className='overlay__text'>Places to go</a>
-                <a href='https://github.com/tombrzo/places_to_go.git' target='blank' className='overlay__sentence'>See code on GitHub</a>
+                <a href='https://github.com/tombrzo/places_to_go.git' target='_blank' rel="noreferrer" className='overlay__text'>Places to go</a>
+                <a href='https://github.com/tombrzo/places_to_go.git' target='_blank' rel="noreferrer" className='overlay__sentence'>See code on GitHub</a>
               </div>
             </div>
             <div className='example'>
               <img className='example__picture' src='img/weather.png' alt='' />
               <div className='overlay'>
-                <a href='https://github.com/tombrzo/weatherApp.git' target='blank' className='overlay__text'>Weather App</a>
-                <a href='https://github.com/tombrzo/weatherApp.git' target='blank' className='overlay__sentence'>See code on GitHub</a>
+                <a href='https://github.com/tombrzo/weatherApp.git' target='_blank' rel="noreferrer" className='overlay__text'>Weather App</a>
+                <a href='https://github.com/tombrzo/weatherApp.git' target='_blank' rel="noreferrer" className='overlay__sentence'>See code on GitHub</a>
               </div>
             </div>
             <div className='example'>
               <img className='example__picture' src='img/landing_page.png' alt='' />
               <div className='overlay'>
-                <a href='https://github.com/tombrzo/landing_page.git' target='blank' className='overlay__text'>AppLab-Landing Page</a>
-                <a href='https://github.com/tombrzo/landing_page.git' target='blank' className='overlay__sentence'>See code on GitHub</a>
+                <a href='https://github.com/tombrzo/landing_page.git' target='_blank' rel="noreferrer" className='overlay__text'>AppLab-Landing Page</a>
+                <a href='https://github.com/tombrzo/landing_page.git' target='_blank' rel="noreferrer" className='overlay__sentence'>See code on GitHub</a>
               </div>
             </div>
             <div className='example'>
               <img className='example__picture' src='img/notify.png' alt='' />
               <div className='overlay'>
-                <a href='https://github.com/tombrzo/notify' target='blank' className='overlay__text'>Notify-Landing Page</a>
-                <a href='https://github.com/tombrzo/notify' target='blank' className='overlay__sentence'>See code on GitHub</a>
+                <a href='https://github.com/tombrzo/notify' target='_blank' rel="noreferrer" className='overlay__text'>Notify-Landing Page</a>
+                <a href='https://github.com/tombrzo/notify' target='_blank' rel="noreferrer" className='overlay__sentence'>See code on GitHub</a>
               </div>
             </div>
           </div>
