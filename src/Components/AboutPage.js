@@ -46,7 +46,7 @@ const AboutPage = () => {
               </div>
             </div>
             <div className='edu__pictures'>
-              <a href='https://energetyk.edu.pl/' target='blank'><img className='edu__logo edu__tec' src='./img/te.jpg' alt='' /></a>
+              <a href='https://energetyk.edu.pl/' target='_blank' rel="noreferrer"><img className='edu__logo edu__tec' src='./img/te.jpg' alt='' /></a>
               <div className='edu__logo_description'>
                 <h4>Technical School of Energy in Poznań</h4>
               </div>
