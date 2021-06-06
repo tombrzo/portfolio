@@ -28,7 +28,7 @@ const AboutPage = () => {
 							hobbies, areas of study. I’m a fast learner, able to pick up new skills and roles with relative ease.
             </p>
             <p className='about__content_sentence'>
-							For many years I used to work in the tourism industry  organizing bussines trips and flights.
+							For many years I used to work in the tourism industry organizing business trips and flights.
 							I’ve worked with people for people.
             </p>
             <p className='about__content_sentence'>
@@ -36,7 +36,7 @@ const AboutPage = () => {
 							and improve  acquired by myself programming skills, engage in interesting and creative projects
 							and raise my Front-End development qualifications.
             </p>
-            <a href='./img/cv.pdf' className='resume' target='blank'>My resume <span>(pdf 272 KB in polish language)</span></a>
+            <a href='./img/CV_.pdf' className='resume' target='blank'>My resume <span>(pdf 89 KB )</span></a>
             <h4 className='about__content_subtitle'>Education</h4>
             <div className='edu__pictures'>
               <a href='http://etnologia.amu.edu.pl/' target='_blank' rel="noreferrer"><img className='edu__logo' src='./img/uam.jpg' alt='' /></a>
