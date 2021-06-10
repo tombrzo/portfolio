@@ -36,7 +36,7 @@ const AboutPage = () => {
 							and improve  acquired by myself programming skills, engage in interesting and creative projects
 							and raise my Front-End development qualifications.
             </p>
-            <a href='./img/CV_.pdf' className='resume' target='_blank' rel="noreferrer">My resume <span>(pdf 89 KB )</span></a>
+            <a href='./img/CV.pdf' className='resume' target='_blank' rel="noreferrer">My resume <span>(pdf 89 KB )</span></a>
             <h4 className='about__content_subtitle'>Education</h4>
             <div className='edu__pictures'>
               <a href='http://etnologia.amu.edu.pl/' target='_blank' rel="noreferrer"><img className='edu__logo' src='./img/uam.jpg' alt='' /></a>
