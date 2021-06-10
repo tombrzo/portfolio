@@ -20,7 +20,7 @@ const WorkPage = () => {
             <div className='example'>
               <img className='example__picture' src='img/portfolio.png' alt='' />
               <div className='overlay'>
-                <a href='https://tombrzo.github.io/portfolio/' target='_blank' rel="noreferrer" className='overlay__text'>Portfolio</a>
+                <a href='https://portfolio-35a24.firebaseapp.com/' target='_blank' rel="noreferrer" className='overlay__text'>Portfolio</a>
                 <a href='https://github.com/tombrzo/potfolio.git' target='_blank' rel="noreferrer" className='overlay__sentence' >See code on GitHub</a>
               </div>
             </div>
