@@ -9,14 +9,13 @@ const ContactPage = () => {
     <div className='contact-container'>
       <div className='contact__title_wrapper'>
         <Link className='back-to-home' to="/"> </Link>
-        <a href='#down' className='contact__down'><h2 className='contact__title'>Let's do something awsome !</h2></a>
+        <a href='#down' className='contact__down'><h2 className='contact__title'>Let's do something awesome !</h2></a>
       </div>
       <div className='contact__content'>
         <span id='down'><h4 className='contact__content_subtitle'> Contact </h4></span>
-        <p className='contact__content_text'>I'm seeking for opportunities to cooperate with
+        <p className='contact__content_text'>I'm seeking opportunities to cooperate with
 				modern companies but not only this...
-				I want to bring my grate experience in work with people and  for people
-				to the table where we'll work together to solve real bussines problems.
+				To the table, I want to bring my great team work experience and to solve business problems together.
         </p>
         <p className='contact__content_text'>If that all sounds right, please contact me : </p>
         <div className='links'>
