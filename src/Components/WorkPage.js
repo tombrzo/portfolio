@@ -6,15 +6,9 @@ const WorkPage = () => {
   return (
     <>
       <div className='work__container'>
-        <div className='work__title_wrapper'>
-          <Back />
-          <a href='#down' className='work__down'>
-            <h2 className='work__title'>words are only</h2>
-            <h2 className='work__title'>a shadow of deeds</h2>
-          </a>
-        </div>
+        <Back />
         <div className='work__content_wrapper'>
-          <div id='down'><h4 className='work__content_subtitle'>My Recent Work</h4></div>
+          <h4 className='work__content_subtitle'>My Recent Work</h4>
           <p className='work__content_text'>Here are a few projects I've worked on recently</p>
           <div className='work__content_examples'>
             <div className='example'>

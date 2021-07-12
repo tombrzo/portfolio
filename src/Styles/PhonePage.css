@@ -1,12 +1,4 @@
-.phone {
-	display: flex;
-	justify-content: flex-start;
-	align-items: center;
-	cursor: pointer;
-}
-
 .number {
-	display: contents;
 	color: #ea0f1e;
 	transition: 0.2s;
 }
