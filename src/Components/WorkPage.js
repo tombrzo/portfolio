@@ -21,8 +21,8 @@ const WorkPage = () => {
             <div className='example'>
               <img className='example__picture' src='img/clone.png' alt='' />
               <div className='overlay'>
-                <a href='https://facebook-clone-da2ac.firebaseapp.com/' target='_blank' rel="noopener noreferrer" className='overlay__text'>Facebook-Clone</a>
-                <a href='https://github.com/tombrzo/facebook_clone' target='_blank' rel="noopener noreferrer" className='overlay__sentence'>See code on GitHub</a>
+                <a href='https://facebook-clone-da2ac.firebaseapp.com/' target='_blank' rel="noreferrer" className='overlay__text'>Facebook-Clone</a>
+                <a href='https://github.com/tombrzo/facebook_clone' target='_blank' rel="noreferrer" className='overlay__sentence'>See code on GitHub</a>
               </div>
             </div>
             <div className='example'>
