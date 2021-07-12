@@ -32,7 +32,7 @@ const AboutPage = () => {
 							Currently, my goal is to find a job that is going to give me an opportunity to deepen and improve
 							already acquired programming skills and to engage in challenging and creative projects.
             </p>
-            <a href='./img/CV.pdf' className='resume' target='_blank' rel="noreferrer">My resume <span>(pdf 89 KB )</span></a>
+            <a href='../Images/CV_IT_noPhoto.pdf' className='resume' target='_blank' >My resume <span>(pdf 60 KB )</span></a>
             <h4 className='about__content_subtitle'>Education</h4>
             <div className='edu__pictures'>
               <a href='http://etnologia.amu.edu.pl/' target='_blank' rel="noreferrer"><img className='edu__logo' src='./img/uam.jpg' alt='' /></a>
