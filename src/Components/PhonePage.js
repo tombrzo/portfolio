@@ -13,10 +13,11 @@ const Phone = () => {
     }
   };
   return (
-    <div className='phone' >
+    <>
       <img className='link__icon' src='./img/phone.png' alt='' onClick={handleClick} />
       <p className='number'>{phoneNumber}</p>
-    </div>
+    </>
+
   );
 };
 

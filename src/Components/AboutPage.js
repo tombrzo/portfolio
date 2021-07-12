@@ -6,15 +6,12 @@ const AboutPage = () => {
   return (
     <>
       <div className='about__container'>
-        <div className='about__title-wrapper'>
-          <Back />
-          <a href='#down' className='about__down'><h2 className='about__title'>everything is possible !</h2></a>
-        </div>
+        <Back />
         <div className='about__content_wrapper'>
           <div className='about__content_text'>
-            <span id='down'><h4 className='about__content_subtitle'>About</h4></span>
+            <h4 className='about__content_subtitle'>About</h4>
             <p className='about__content_sentence-first'>Hi, I’m Tom. I’m naturally curious about the world,
-						and constantly work on improving my professional knowledge.
+							and constantly work on improving my professional knowledge.
             </p>
             <p className='about__content_sentence'>
 							Skills can be taught, personality is is the sum
@@ -32,8 +29,8 @@ const AboutPage = () => {
 							I’ve worked with people for people.
             </p>
             <p className='about__content_sentence'>
-						Currently, my goal is to find a job that is going to give me an opportunity to deepen and improve
-						already acquired programming skills and to engage in challenging and creative projects.
+							Currently, my goal is to find a job that is going to give me an opportunity to deepen and improve
+							already acquired programming skills and to engage in challenging and creative projects.
             </p>
             <a href='./img/CV.pdf' className='resume' target='_blank' rel="noreferrer">My resume <span>(pdf 89 KB )</span></a>
             <h4 className='about__content_subtitle'>Education</h4>
@@ -59,7 +56,6 @@ const AboutPage = () => {
               <img className='skills__logo' src='./img/git.jpg' alt='' />
             </div>
           </div>
-          <div className='end_line'></div>
         </div>
       </div>
     </>

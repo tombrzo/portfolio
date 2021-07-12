@@ -7,12 +7,9 @@ const ContactPage = () => {
   return (
 
     <div className='contact-container'>
-      <div className='contact__title_wrapper'>
-        <Link className='back-to-home' to="/"> </Link>
-        <a href='#down' className='contact__down'><h2 className='contact__title'>Let's do something awesome !</h2></a>
-      </div>
+      <Link className='back-to-home' to="/"> </Link>
       <div className='contact__content'>
-        <span id='down'><h4 className='contact__content_subtitle'> Contact </h4></span>
+        <h4 className='contact__content_subtitle'> Contact </h4>
         <p className='contact__content_text'>I'm seeking opportunities to cooperate with
 				modern companies but not only this...
 				To the table, I want to bring my great team work experience and to solve business problems together.
