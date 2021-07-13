@@ -4,7 +4,7 @@
   overflow: hidden;
   background-color: #222;
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
 }
 
